@@ -11,3 +11,9 @@ window.addEventListener('keyup', (e) => {
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
     key.classList.remove('playing')
 })
+const hihat = document.querySelector(`audio[data-key="74"]`)
+hihat.volume = 0.5
+const openhat = document.querySelector(`audio[data-key="75"]`)
+openhat.volume = 0.4
+const ride = document.querySelector(`audio[data-key="76"]`)
+ride.volume = 0.4
