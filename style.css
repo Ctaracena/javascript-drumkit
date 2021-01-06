@@ -1,9 +1,5 @@
 html {
   font-size: 10px;
-  background: url('https://www.stars-music.com/medias/atv/exs-drums-exs-5-hd-162899.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 body,html {
@@ -14,57 +10,63 @@ body,html {
 
 .kick {
   position: absolute;
-  top: 310px;
+  top: 300px;
+  left: 434px;
 }
 .clap {
   position: absolute;
-  top: 90px;
-  left: 695px;
+  top: -10px;
+  left: 760px;
 }
 .hihat {
   position: absolute;
   top: 100px;
-  left: 290px;
+  left: 100px;
 }
 .openhat {
   position: absolute;
   top: 100px;
-  left: 395px;
+  left: 200px;
 }
 .snare {
   position: absolute;
   top: 210px;
-  left: 460px;
+  left: 274px;
 }
 .tom {
   position: absolute;
   top: 90px;
-  left: 545px;
+  left: 362px;
 }
 .ride {
   position: absolute;
-  top: 35px;
-  left: 840px;
+  top: 40px;
+  left: 650px;
 }
 .boom {
   position: absolute;
-  top: 210px;
-  left: 840px;
+  top: 200px;
+  left: 650px;
 }
 .clave {
   position: absolute;
-  top: 0;
-  left: 950px;
+  top: 90px;
+  left: 510px;
 }
 
 
 .keys {
   position: relative;
+  margin: auto;
   display: flex;
-  flex: 1;
-  min-height: 100vh;
+  width: 1000px;
+  height: 650px;
   align-items: center;
   justify-content: center;
+  background: url('https://www.stars-music.com/medias/atv/exs-drums-exs-5-hd-162899.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .key {
